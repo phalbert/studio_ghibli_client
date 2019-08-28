@@ -16,9 +16,10 @@ request.onload = function() {
           h1.textContent = movie.title
 
           //create a p and set the text content to the film's description
+          console.log(movie.description)
           const p = document.createElement('p')
           movie.description = movie.description.substring(0, 300)
-          p.textContent = `$movie.description...` //end with an ellipses
+          p.textContent = `${movie.description}...` //end with an ellipses
 
           //append the card to the container element
           container.appendChild(card)
@@ -29,7 +30,9 @@ request.onload = function() {
           
         })
       } else {
-        console.log('error')
+        const errorMessage = document.createElement('marquee')
+        errorMessage.textContent = "Argh, it's not working!"
+        app.appendChild(errorMessage)
     }
 }
 //send request
@@ -42,7 +45,7 @@ logo.src = 'assets/logo.png'
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
 
-app.appendChild(logo)
+// app.appendChild(logo)
 app.appendChild(container)
 
 
