@@ -1,4 +1,4 @@
-# studio_ghibli_client
+# studio_ghibli_client  [![Netlify Status](https://api.netlify.com/api/v1/badges/e70825fe-be82-4d80-bd04-b9810459cc86/deploy-status)](https://app.netlify.com/sites/admiring-carson-3e0571/deploys)
 
 This simple web app connects to a Studio Ghibli API, retrieves the data with JavaScript, and displays it on the front end of a website.
 
