@@ -10,7 +10,7 @@ This is not meant to be an extensive resource on APIs or REST - just the simples
 
 It will look like this:
 
-![Look](assets/ghibli.png)
+![Look](assets/demo.png)
 
 ## Structure
 

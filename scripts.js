@@ -45,7 +45,7 @@ logo.src = 'assets/logo.png'
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
 
-// app.appendChild(logo)
+app.appendChild(logo)
 app.appendChild(container)
 
 
